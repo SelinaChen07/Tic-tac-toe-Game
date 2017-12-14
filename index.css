@@ -1,0 +1,70 @@
+h1{
+	margin-top: 20px;
+}
+#board-container, #dashboard{
+	margin: 30px auto;
+	width: 30%;
+	min-width: 300px;
+}
+
+#board-container{
+	min-height: 300px;
+	padding-top: 30%;
+	position: relative;
+}
+
+#board{	
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	border: solid 5px brown;
+	border-radius: 5px;
+	box-shadow: 12px 12px 6px #888888;
+}
+.row{
+	height: 33.33%;
+}
+.square{
+	border: solid 2px brown;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+}	
+
+
+.o{
+	width:60%;
+	height: 60%;
+	border: solid 20px black;
+	border-radius: 50%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.x{
+  background: black;
+  height: 60%;
+  position: relative;
+  width: 12%;
+  transform: rotate(-45deg);
+  top: 20%;
+  left: 40%;
+}
+.x:after {
+  background: black;
+  content: "";
+  height: 20%;
+  left: -200%;
+  position: absolute;
+  top: 40%;
+  width: 500%;
+}
+
+#dashboard div{
+	display: inline-block;
+}
+

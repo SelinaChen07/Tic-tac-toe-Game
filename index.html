@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic-Tac-Toe-Game</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="cross.png">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 class="text-center">Tic Tac Toe Game</h1>
+		<div id="board-container">
+		<div id="board">
+			<div class="row no-gutters">
+				<div class="col-4 square" id="0"><div class="x"></div></div>
+				<div class="col-4 square" id="1"><div class="o"></div></div>
+				<div class="col-4 square" id="2"></div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-4 square" id="3"></div>
+				<div class="col-4 square" id="4"></div>
+				<div class="col-4 square" id="5"></div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-4 square" id="6"></div>
+				<div class="col-4 square" id="7"></div>
+				<div class="col-4 square" id="8"></div>
+			</div>	
+		</div>
+		</div>
+		<div id="dashboard" class="row no-gutters lead">
+			<div class="col-4 text-center">
+				<p>Player1(x)</p>
+				<p id="score1">0</p>
+			</div>
+			<div class="col-4 text-center">
+				<p>Tie</p>
+				<p id="tie">0</p>
+			</div>
+			<div class="col-4 text-center">
+				<p>Player2(o)</p>
+				<p id="score2">0</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
